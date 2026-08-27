@@ -1,0 +1,37 @@
+Build a single-file HTML wedding e-invitation website (HTML + CSS + minimal
+vanilla JS inline, no external dependencies). Mobile-first, since most guests
+will open it on a phone from a messaging app link.
+
+DESIGN
+- Palette: rustic orange as the primary accent (terracotta/burnt orange,
+  roughly #C1571F–#D2691E), on a warm off-white/cream background (#FAF6F0),
+  with muted sage or warm brown as a secondary accent.
+- Style: simple but elegant — generous white space, a refined serif for
+  headings (Cormorant Garamond, Playfair Display) paired with a clean sans
+  for body text, subtle letter-spacing, thin divider rules, small botanical
+  or floral line accents. No heavy textures, no clutter, no busy animation.
+- Gentle fade-in on scroll and a soft hover state on buttons — nothing more.
+
+SECTIONS (in order)
+1. Hero — couple's names, wedding date, venue city, and a live countdown timer.
+2. Our Story — short narrative plus an optional photo.
+3. Event Details — ceremony and reception each with date, time, venue name,
+   full address, and a "Get Directions" link that opens Google Maps.
+4. Schedule / Order of the Day — simple vertical timeline.
+5. Dress Code — attire guidance with a small colour-swatch strip.
+6. Entourage / Wedding Party — grouped names by role.
+7. Gift Guide — a short, tasteful note (e.g. monetary gifts preferred).
+8. RSVP — form with name, number of guests, attending yes/no, meal choice,
+   and a message field. Validate client-side; on submit show a thank-you
+   state. Leave a clearly commented placeholder where a Google Form or
+   Formspree endpoint can be dropped in.
+9. FAQ — collapsible accordion.
+10. Footer — hashtag, contact number, and a thank-you line.
+
+TECHNICAL
+- Responsive from 320px up; readable type at every size.
+- Use clearly marked placeholder content (NAMES, DATE, VENUE, PHOTO) so
+  every detail is easy to swap out.
+- Semantic HTML, alt text on images, sufficient colour contrast.
+- Include a favicon and Open Graph tags so the link previews nicely when
+  shared on Messenger or Viber.
